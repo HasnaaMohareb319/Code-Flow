@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Profile | Code Flow</title>
-    <link rel="stylesheet" href="ProfileStyles.css">
+    <link rel="stylesheet" href="../global.css">
+    <link rel="stylesheet" href="ProfileStyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 </head>
@@ -17,12 +18,12 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="../Home Page/Home.html">Home</a></li>
-                    <li><a href="../Languages Page/language.html">Languages</a></li>
-                    <li><a href="../Courses Page/Courses.html">Courses</a></li>
-                    <li><a href="../To Do Page/To Do List.html">To do</a></li>
-                    <li><a href="../About Us/About Us.html">About us</a></li>
-                    <li><a href="../Contact Page/contact us .html">contact us</a></li>
+                    <li><a href="../Home Page/HomePage.html">Home</a></li>
+                    <li><a href="../Language/language.html">Languages</a></li>
+                    <li><a href="../Course Page/Courses.html">Courses</a></li>
+                    <li><a href="../Todo List/todoList.html">To do</a></li>
+                    <li><a href="../About us Page/About us.html">About us</a></li>
+                    <li><a href="../Contact Page/contact.html">contact us</a></li>
                     <li><a href="Profile.html" class="active">Profile</a></li>
                 </ul>
             </nav>
@@ -83,7 +84,7 @@
         <section class="courses-section">
             <div class="courses-header">
                 <h2 class="section-title">My Courses</h2>
-                <a href="../Courses Page/Courses.html" class="view-all-link">View All Courses</a>
+                <a href="../Course Page/Courses.html" class="view-all-link">View All Courses</a>
             </div>
             
             <div class="courses-tabs">
@@ -155,17 +156,19 @@
     
     <!-- Footer -->
     <footer>
-        <div class="container footer-content">
-            <div class="logo">
-                <span>&lt;/&gt;_</span><span>Code Flow</span>
-            </div>
-            <div class="footer-links">
-                <a href="../About Us/About Us.html">About us</a>
-                <a href="../Contact Page/contact us .html">Contact</a>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms of Service</a>
-            </div>
+
+        <div class="student-icons">
+            <ul>
+                <li><a href="https://facebook.com" target="_blank" title="Facebook"><i
+                            class="fab fa-facebook-f"></i></a>                </li>
+                <li><a href="https://x.com" target="_blank" title="X (Twitter)"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li><a href="https://instagram.com" target="_blank" title="Instagram"><i
+                            class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
         </div>
+        <p class="email"><a href="mailto:codeflow@gmail.com">codeflow@gmail.com</a></p>
     </footer>
 
     <!-- Modal for editing profile information -->
