@@ -19,12 +19,12 @@ body {
 
 a {
     text-decoration: none;
-    color: #967bb6;
+    color: #7b68ee;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #967bb6;
+    color: #7b68ee;
 }
 
 ul {
@@ -33,7 +33,7 @@ ul {
 
 button, .btn {
     cursor: pointer;
-    background-color: #967bb6;
+    background-color: #7b68ee;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -43,7 +43,7 @@ button, .btn {
 }
 
 button:hover, .btn:hover {
-    background-color: #967bb6;
+    background-color: #7b68ee;
 }
 
 input, textarea {
@@ -56,15 +56,16 @@ input, textarea {
 
 input:focus, textarea:focus {
     outline: none;
-    border-color: #967bb6;
+    border-color: #7b68ee;
 }
 
 /* Header Styles - Matching courses.css */
 .nav-bar {
-    background-color: #967bb6;
-    color: white;
+    background-color: #7b68ee;
     padding: 15px 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .header-content {
@@ -105,7 +106,7 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: white;
-    color: #967bb6;
+    color: #7b68ee;
 }
 
 nav ul li a.active {
@@ -159,7 +160,7 @@ nav ul li a.active {
 }
 
 .avatar-edit:hover {
-    background-color: #967bb6;
+    background-color: #7b68ee;
 }
 
 .profile-info {
@@ -184,7 +185,7 @@ nav ul li a.active {
 .section-title {
     font-size: 20px;
     font-weight: 700;
-    color: #967bb6;
+    color: #7b68ee;
 }
 
 #bio-content {
@@ -194,7 +195,7 @@ nav ul li a.active {
 
 .tag {
     background-color: #e9d8f4;
-    color: #967bb6;
+    color: #7b68ee;
     padding: 5px 15px;
     border-radius: 20px;
     font-size: 14px;
@@ -207,7 +208,7 @@ nav ul li a.active {
 }
 
 .course-category {
-    color: #967bb6;
+    color: #7b68ee;
     font-size: 14px;
     margin-bottom: 10px;
     font-weight: 600;
@@ -220,7 +221,7 @@ nav ul li a.active {
 /* Make edit icon more visible */
 .edit-icon {
     margin-left: 10px;
-    color: #967bb6;
+    color: #7b68ee;
     cursor: pointer;
     font-size: 18px;
     transition: transform 0.2s ease;
@@ -228,7 +229,7 @@ nav ul li a.active {
 
 .edit-icon:hover {
     transform: scale(1.2);
-    color: #7b63a0;
+    color: #7b68ee;
 }
 
 .profile-bio {
@@ -246,7 +247,7 @@ nav ul li a.active {
 .section-title {
     font-size: 18px;
     font-weight: bold;
-    color: #967bb6;
+    color: #7b68ee;
 }
 
 /* Interests Section */
@@ -263,7 +264,7 @@ nav ul li a.active {
 
 .tag {
     background-color: #e9eeff;
-    color: #967bb6;
+    color: #7b68ee;
     padding: 5px 15px;
     border-radius: 20px;
     font-size: 14px;
@@ -282,7 +283,7 @@ nav ul li a.active {
 }
 
 .view-all-link {
-    color: #967bb6;
+    color: #7b68ee;
     text-decoration: none;
     font-weight: 500;
     transition: opacity 0.3s;
@@ -306,8 +307,8 @@ nav ul li a.active {
 }
 
 .tab.active {
-    border-bottom: 2px solid #967bb6;
-    color: #967bb6;
+    border-bottom: 2px solid #7b68ee;
+    color: #7b68ee;
     font-weight: bold;
 }
 
@@ -352,7 +353,7 @@ nav ul li a.active {
 }
 
 .course-category {
-    color: #967bb6;
+    color: #7b68ee;
     font-size: 14px;
     margin-bottom: 10px;
 }
@@ -366,7 +367,7 @@ nav ul li a.active {
 
 .progress {
     height: 100%;
-    background-color: #967bb6;
+    background-color: #7b68ee;
     border-radius: 4px;
 }
 
@@ -381,31 +382,11 @@ nav ul li a.active {
     position: absolute;
     top: 10px;
     right: 10px;
-    background-color: #967bb6;
+    background-color: #7b68ee;
     color: white;
     padding: 5px 10px;
     border-radius: 4px;
     font-size: 12px;
-}
-
-/* Footer */
-footer {
-    background-color: #967bb6;
-    color: white;
-    padding: 20px 0;
-    margin-top: 50px;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer-links a {
-    color: white;
-    margin-left: 15px;
-    text-decoration: none;
 }
 
 /* Modal Styles */
@@ -470,8 +451,52 @@ footer {
         grid-template-columns: 1fr;
     }
     
-    .footer-content {
-        flex-direction: column;
-        gap: 15px;
-    }
+}
+
+/* Footer styles */
+footer {
+    background-color: #7b68ee;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.student-icons ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.student-icons li {
+    margin: 0 15px;
+}
+
+.student-icons a {
+    color: white;
+    font-size: 20px;
+    transition: opacity 0.3s;
+}
+
+.student-icons a:hover {
+    opacity: 0.8;
+}
+
+.email a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.email a:hover {
+    text-decoration: underline;
 }

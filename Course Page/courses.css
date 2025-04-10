@@ -1,5 +1,5 @@
 .courses-page .nav-bar {
-    background-color: #967bb6;
+    background-color: #7b68ee;
 }
 
 .courses-page .nav-bar .container {
@@ -36,7 +36,7 @@
 
 .courses-page .nav-bar .container ul li a:hover {
     background-color: white;
-    color: #967bb6;
+    color: #7b68ee;
 }
 
 @media (max-width: 992px) {
@@ -55,7 +55,7 @@
 }
 
 .courses-page .courses-head {
-    background-color: #967bb6;
+    background-color: #7b68ee;
     padding: 45px 0;
     color: white;
     position: relative;
@@ -85,7 +85,7 @@
 }
 
 .courses-page .courses-head .back-home a:hover {
-    color: red;
+    color: rgb(126, 98, 169);
     text-decoration: underline;
 }
 
@@ -99,7 +99,7 @@
 }
 
 .courses-page .top-courses h1 {
-    color: #967bb6;
+    color: #7b68ee;
     margin-bottom: 15px;
     text-align: center;
 }
@@ -166,7 +166,7 @@
 .courses-page .top-courses .boxes-container .boxes .box .btn-value {
     margin-top: 10px;
     padding: 10px 25px;
-    border: 2px solid #967bb6;
+    border: 2px solid #7b68ee;
     background-color: transparent;
     cursor: pointer;
     align-content: center;
@@ -175,7 +175,7 @@
 
 .courses-page .top-courses .boxes-container .boxes .box .btn-value:hover {
     border: 2px solid #ffffff;
-    background-color: #967bb6;
+    background-color: #7b68ee;
     color: white;
     transition: .5s;
 }
@@ -183,7 +183,7 @@
 
 .courses-page .top-courses .boxes-container .boxes .box .active {
     border: 2px solid #ffffff;
-    background-color: #967bb6;
+    background-color: #7b68ee;
     color: white;
     transition: .5s;
 }
@@ -228,16 +228,16 @@
 
 .courses-page .courses-details .container .items .item .lead-more-btn button {
     padding: 10px 25px;
-    border: 2px solid #967bb6;
+    border: 2px solid #7b68ee;
     background-color: white;
     cursor: pointer;
     align-content: center;
-    color: #967bb6;
+    color: #7b68ee;
 }
 
 .courses-page .courses-details .container .items .item .lead-more-btn button:hover {
     border: 2px solid #ffffff;
-    background-color: #967bb6;
+    background-color: #7b68ee;
     color: white;
     transition: .5s;
 }
@@ -266,7 +266,7 @@
 }
 
 .courses-page .courses-details .container .items .item .course-detail-down .track-parts .part h4 {
-    background-color: #967bb6;
+    background-color: #7b68ee;
     padding: 15px 40px;
     margin-bottom: 5px;
     border-radius: 20px;
@@ -278,7 +278,7 @@
 
 .courses-page .courses-details .container .items .item .course-detail-down .track-parts .part h4:hover {
     background-color: white;
-    color: #967bb6;
+    color: #7b68ee;
 }
 
 .courses-page .courses-details .container .items .item .course-detail-down .track-parts .part ul li {
@@ -358,7 +358,7 @@
     bottom: -100%;
     left: 0;
     width: 100%;
-    background-color: #967bb6;
+    background-color: #7b68ee;
     padding: 15px;
     transition: .5s;
 }
@@ -390,7 +390,7 @@
 .item-content .price {
     border: 2px white solid;
     background-color: white;
-    color: #967bb6;
+    color: #7b68ee;
     padding: 3px 8px;
     border-radius: 5px;
     margin: 0;
@@ -408,7 +408,7 @@
 .go-to-course-btn {
     transition: .3s;
     border: 0;
-    background-color: #967bb6;
+    background-color: #7b68ee;
     color: white;
     padding: 8px 15px;
     border-radius: 4px;
@@ -425,7 +425,7 @@
 
 .go-to-course-btn:hover {
     background-color: white;
-    color: #967bb6;
+    color: #7b68ee;
     cursor: pointer;
 }
 
@@ -459,7 +459,7 @@
 }
 
 #apply-filter-btn {
-    background-color: #967bb6;
+    background-color: #7b68ee;
     margin-right: 5px;
 }
 
@@ -470,7 +470,7 @@
 }
 
 .filter-section h4 {
-    color: #967bb6;
+    color: #7b68ee;
 }
 
 .filter-container {
